@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Phrase & Idiom Master",
+    "slug": "phrase-idiom-master",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "package": "com.aistudio.idiommemo.rxkwpl",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1E293B"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.aistudio.idiommemo.rxkwpl",
+      "supportsTablet": false
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#4F46E5"
+        }
+      ]
+    ]
+  }
+}
